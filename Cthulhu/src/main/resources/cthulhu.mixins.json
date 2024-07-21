@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "sisicat.cthulhu.mixins",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "MixinChatInputSuggester",
+    "MixinClientPlayNetworkHandler",
+    "MixinMinecraftClient"
+  ],
+  "mixins": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

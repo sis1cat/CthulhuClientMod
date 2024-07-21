@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "cthulhu",
+  "version": "${version}",
+  "name": "Cthulhu",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": ""
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/cthulhu/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "sisicat.cthulhu.Cthulhu"
+    ]
+  },
+  "mixins": [
+    "cthulhu.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
